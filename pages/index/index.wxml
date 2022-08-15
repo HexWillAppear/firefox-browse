@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <div class="bottom-bar">www</div>
+
+</view>

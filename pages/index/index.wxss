@@ -1,0 +1,12 @@
+/**index.wxss**/
+.bottom-bar{
+  position:fixed;
+  height: 10vh;
+  width:100vw;
+  background: linear-gradient(30deg,#3b3275,#6f2aa1);
+  z-index: 99;
+  flex-grow: 0;
+  flex-shrink: 0;
+  bottom: 0;
+  border: double  linear-gradient(30deg,#3b3275,#6f2aa1);
+}
