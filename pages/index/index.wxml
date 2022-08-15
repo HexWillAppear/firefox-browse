@@ -1,5 +1,10 @@
 <!--index.wxml-->
 <view class="container">
-  <div class="bottom-bar">www</div>
-
+  <view class="bottom-bar">
+    <view class="search-line">
+        <image src="../bing.png"  class="bing" style="width: 87rpx; height: 80rpx; display: inline-block; box-sizing: border-box"></image>
+        <input class="search-box" placeholder="搜索或输入网址" bindinput="bindKeyInput"/>
+    </view>
+    <image src="../settings.png" class="settings" style="width: 40rpx ; height:80rpx"></image>
+  </view>
 </view>

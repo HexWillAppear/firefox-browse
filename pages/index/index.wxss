@@ -10,3 +10,31 @@
   bottom: 0;
   border: double  linear-gradient(30deg,#3b3275,#6f2aa1);
 }
+.search-line{
+  display:flex;
+  position:relative;
+  background-color: #291d4f;
+  height:7vh;
+  width:80vw;
+  border-radius: 15rpx;
+  margin-top: 25rpx;
+  margin-left: 10rpx;
+  float:left;
+}
+.search-box{
+  position:relative;
+  float:left;
+  top:30rpx;
+  left:5rpx;
+}
+.bing{
+  position: relative;
+  float: left;
+  top:10rpx;
+}
+.settings{
+  position:relative;
+  float: right;
+  right: 20rpx;
+  top: 35rpx;
+}
