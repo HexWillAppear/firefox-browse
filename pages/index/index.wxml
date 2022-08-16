@@ -2,9 +2,18 @@
 <view class="container">
   <view class="bottom-bar">
     <view class="search-line">
-        <image src="../bing.png"  class="bing" style="width: 87rpx; height: 80rpx; display: inline-block; box-sizing: border-box"></image>
+        <image src="../bing.png"  class="bing" mode="widthFix"></image>
         <input class="search-box" placeholder="搜索或输入网址" bindinput="bindKeyInput"/>
     </view>
     <image src="../settings.png" class="settings" style="width: 40rpx ; height:80rpx"></image>
   </view>
+  <view class="information-block">
+    <image src="../firefox.png" mode="widthFix" style="width:600rpx;"></image>
+    <image src="../indicator-private-browsing.png" mode="widthFix" style="width: 100rpx; margin-top: 15rpx;"></image>
+    <view style="color: rgb(198,209,192); font-weight: 700;">
+      Firefox 会在关闭所有隐私标签页或退出应用时，清除您的搜索记录与浏览历史。虽然这样仍无法对网站或电信运营商匿名，但还是可以简单地防止其他使用此设备的人得知您的上网活动。
+    </view>
+    <view style="color: rgb(203,210,194); text-decoration: underline;">正确认识隐私浏览功能</view>
+  </view>
+    
 </view>

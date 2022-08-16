@@ -30,11 +30,18 @@
 .bing{
   position: relative;
   float: left;
-  top:10rpx;
+  top:15rpx;
+  width:90rpx;
 }
 .settings{
   position:relative;
   float: right;
   right: 20rpx;
   top: 35rpx;
+}
+.information-block{
+  display:flex;
+  flex-wrap: wrap;
+  width: 95vw;
+  height: 40vh;
 }
